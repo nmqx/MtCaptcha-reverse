@@ -24,7 +24,7 @@ func init() {
 	}
 }
 
-// --- MTCaptcha Proof of Work Logic ---
+//  MTCaptcha full js reversal of the logic
 
 func foldBase64IntArray(a1 []int, foldCount int) []int {
 	a2 := make([]int, len(a1))
@@ -88,7 +88,7 @@ func generateHypothesis3(fseed string, fslots int, fdepth int) string {
 	return sb.String()
 }
 
-// --- API ---
+//   API / local server
 
 type CalculateRequest struct {
 	Fseed  string `json:"fseed"`
