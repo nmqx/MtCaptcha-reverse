@@ -123,7 +123,7 @@ func calculateHandler(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/calculate", calculateHandler)
 
-	fmt.Printf("MTCaptcha Calculator Service listening on %s\n", ServerPort)
+	fmt.Printf("MTCaptcha Solver listening on %s\n", ServerPort)
 	fmt.Printf("Endpoint: POST /calculate (Body: {fseed, fslots, fdepth})\n")
 
 	if err := http.ListenAndServe(ServerPort, nil); err != nil {
