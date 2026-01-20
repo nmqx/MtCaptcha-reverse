@@ -7,7 +7,7 @@ Coded By Nmqx and Thibhrb in python and golang
 
 ##  Features
 
-- ** Architecture** :
+- **Architecture** :
   - **Go Service**: Handles the computationally intensive "Folding" algorithm (PoW) required to generate the valid `fa` token.
   - **Python Controller**: Manages the HTTP session, request signing, and flow orchestration.
   - **PyTorch CRNN**: A Convolutional Recurrent Neural Network trained to solve the specific visual style of MTCaptcha images.
